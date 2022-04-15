@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="level_1" type="id" />
+    <item name="level_2" type="id" />
+    <item name="level_12" type="id" />
+</resources>
