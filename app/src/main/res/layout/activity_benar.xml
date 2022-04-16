@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="#00FFFFFF"
+    android:theme="@style/Theme.MaterialComponents.Light"
+    app:cardBackgroundColor="#FFEEAD"
+    app:cardCornerRadius="20dp"
+    tools:context=".BenarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_benarLv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:paddingTop="30dp"
+            android:paddingBottom="0dp"
+            android:text="JAWABAN KAMU BENAR !!!"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/text_keteranganSkor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Skor Kamu : "
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_skor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="1500"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:src="@drawable/benar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                app:cardBackgroundColor="#FEF5D2"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:id="@+id/tv_kata"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sound"
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:padding="15dp">
+                </TextView>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="35dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FEF5D2"
+                app:cardCornerRadius="10dp">
+
+                <ImageButton
+                    android:id="@+id/button_textSound"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#00FFFFFF"
+                    android:src="@drawable/notifikasi" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/text_totalSkor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#FEF5D2"
+            app:cardCornerRadius="10dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/tv_penjelasan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Coba-coba. Meski sirah sebenarnya sudah cukup halus, tapi saat bicara dengan orang yang lebih tua atau dihormati akan lebih sopan jika memakai kata ini. Namun, jangan sampai memakai kata endhas, ya. Kata ini cenderung lebih kasar dan seringkali dipakai untuk menyebut kepala hewan atau malah sebagai kata makian. "
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+            </ScrollView>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/button_benar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_btn_lanjut"
+            android:fontFamily="@font/montserrat"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Lanjut"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FEF5D2"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@drawable/bg_btn_lanjut" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

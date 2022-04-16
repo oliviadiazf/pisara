@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "853291974569",
+    "project_id": "pisara-ede69",
+    "storage_bucket": "pisara-ede69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853291974569:android:0fcf37f07a60ce635b4eb8",
+        "android_client_info": {
+          "package_name": "com.example.tubestba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853291974569-7cl8tc692sh1ttukadql9p0mtqk3pnhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tubestba",
+            "certificate_hash": "9a3492253b1a982b67f5e9a0c214fce09e3e55d6"
+          }
+        },
+        {
+          "client_id": "853291974569-36f1u50rtvde4q3t13h5nkuj5jjuad47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA45SYxdR1ga8Py0cytYLesvcJ9lhzZtgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853291974569-36f1u50rtvde4q3t13h5nkuj5jjuad47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
